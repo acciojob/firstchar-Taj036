@@ -5,7 +5,8 @@ function firstChar(text) {
 	}
 	
 	let ans = text.split('');
-	return ans.shift()
+     let re=  ans.shift()
+	return `"${re}"`;
 	
 }
 
