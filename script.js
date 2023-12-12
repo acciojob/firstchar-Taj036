@@ -1,8 +1,9 @@
 function firstChar(text) {
   // your code here
 	if(text===' ' || text===''){
-		return ' ';
+		return '';
 	}
+	
 	let ans = text.split('');
 	return ans.shift()
 	
